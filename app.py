@@ -1,13 +1,9 @@
-# Danh sách d? luu các công vi?c
 tasks = []
-
 def add_task(task_name):
-    """Thêm m?t công vi?c m?i vào danh sách."""
+    """ThÃªm má»™t cÃ´ng viá»‡c má»›i vÃ o danh sÃ¡ch."""
     tasks.append(task_name)
-    print(f"Ğã thêm công vi?c: '{task_name}'")
-
-# --- Ği?m b?t d?u c?a chuong trình ---
+    print(f"ÃÃ£ thÃªm cÃ´ng viá»‡c:'{task_name}'")
 if __name__ == "__main__":
-    print("Chào m?ng d?n v?i ?ng d?ng To-Do List!")
-    add_task("H?c bài Git và GitHub")
-    add_task("Làm bài t?p th?c hành ? nhà")
+    print("ChÃ o má»«ng báº¡n Ä‘áº¿n vá»›i To-Do List!")
+    add_task("Há»c bÃ i Git vÃ  GitHub")
+    add_task("LÃ m bÃ i táº­p thá»±c hÃ nh á»Ÿ nhÃ ")
